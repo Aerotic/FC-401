@@ -43,12 +43,8 @@
 .\objects\ms5611.o: Mylib\data_send.h
 .\objects\ms5611.o: Mylib\buzzer.h
 .\objects\ms5611.o: Mylib\pwm_out.h
-.\objects\ms5611.o: Mylib\pwm_in.h
 .\objects\ms5611.o: Mylib\filter.h
-.\objects\ms5611.o: Mylib\hcsr04.h
 .\objects\ms5611.o: Mylib\uart5.h
-.\objects\ms5611.o: Mylib\gps.h
 .\objects\ms5611.o: Mylib\inertialNav.h
 .\objects\ms5611.o: Mylib\spi.h
-.\objects\ms5611.o: Mylib\24l01.h
 .\objects\ms5611.o: Mylib\flash.h

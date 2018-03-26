@@ -43,12 +43,8 @@
 .\objects\softiic.o: Mylib\data_send.h
 .\objects\softiic.o: Mylib\buzzer.h
 .\objects\softiic.o: Mylib\pwm_out.h
-.\objects\softiic.o: Mylib\pwm_in.h
 .\objects\softiic.o: Mylib\filter.h
-.\objects\softiic.o: Mylib\hcsr04.h
 .\objects\softiic.o: Mylib\uart5.h
-.\objects\softiic.o: Mylib\gps.h
 .\objects\softiic.o: Mylib\inertialNav.h
 .\objects\softiic.o: Mylib\spi.h
-.\objects\softiic.o: Mylib\24l01.h
 .\objects\softiic.o: Mylib\flash.h

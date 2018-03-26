@@ -43,12 +43,8 @@
 .\objects\schedule.o: Mylib\data_send.h
 .\objects\schedule.o: Mylib\buzzer.h
 .\objects\schedule.o: Mylib\pwm_out.h
-.\objects\schedule.o: Mylib\pwm_in.h
 .\objects\schedule.o: Mylib\filter.h
-.\objects\schedule.o: Mylib\hcsr04.h
 .\objects\schedule.o: Mylib\uart5.h
-.\objects\schedule.o: Mylib\gps.h
 .\objects\schedule.o: Mylib\inertialNav.h
 .\objects\schedule.o: Mylib\spi.h
-.\objects\schedule.o: Mylib\24l01.h
 .\objects\schedule.o: Mylib\flash.h

@@ -11,10 +11,10 @@
 /***************LED GPIO∂®“Â******************/
 #define  RCC_LED           RCC_AHB1Periph_GPIOB
 #define  LED_PORT          GPIOB
-#define  RED_LED_Pin       GPIO_Pin_6 
-#define  GREEN_LED_Pin     GPIO_Pin_7
-#define  BLUE_LED_Pin      GPIO_Pin_8
-
+#define  LED_Pin_One       GPIO_Pin_6 
+#define  LED_Pin_Two     	 GPIO_Pin_7
+#define  LED_Pin_Three     GPIO_Pin_8
+#define  LED_Pin_Four      GPIO_Pin_9
 
 #define  RCC_OUT_LED       RCC_AHB1Periph_GPIOB
 #define  OUT_LED_PORT      GPIOB
@@ -64,15 +64,15 @@
 #include "data_send.h"
 #include "buzzer.h"
 #include "pwm_out.h"
-#include "pwm_in.h"
+
 #include "filter.h"
 #include "stdint.h"
-#include "hcsr04.h"
+
 #include "uart5.h"
-#include "gps.h"
+
 #include "inertialNav.h"
 #include "spi.h"
-#include "24l01.h"
+
 #include "flash.h"
 
 void SysTick_Configuration(void);

@@ -42,12 +42,8 @@
 .\objects\board.o: Mylib\data_send.h
 .\objects\board.o: Mylib\buzzer.h
 .\objects\board.o: Mylib\pwm_out.h
-.\objects\board.o: Mylib\pwm_in.h
 .\objects\board.o: Mylib\filter.h
-.\objects\board.o: Mylib\hcsr04.h
 .\objects\board.o: Mylib\uart5.h
-.\objects\board.o: Mylib\gps.h
 .\objects\board.o: Mylib\inertialNav.h
 .\objects\board.o: Mylib\spi.h
-.\objects\board.o: Mylib\24l01.h
 .\objects\board.o: Mylib\flash.h

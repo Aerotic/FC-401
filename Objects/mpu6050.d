@@ -43,12 +43,8 @@
 .\objects\mpu6050.o: Mylib\data_send.h
 .\objects\mpu6050.o: Mylib\buzzer.h
 .\objects\mpu6050.o: Mylib\pwm_out.h
-.\objects\mpu6050.o: Mylib\pwm_in.h
 .\objects\mpu6050.o: Mylib\filter.h
-.\objects\mpu6050.o: Mylib\hcsr04.h
 .\objects\mpu6050.o: Mylib\uart5.h
-.\objects\mpu6050.o: Mylib\gps.h
 .\objects\mpu6050.o: Mylib\inertialNav.h
 .\objects\mpu6050.o: Mylib\spi.h
-.\objects\mpu6050.o: Mylib\24l01.h
 .\objects\mpu6050.o: Mylib\flash.h

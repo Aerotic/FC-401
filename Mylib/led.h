@@ -3,25 +3,22 @@
 
 #include "board.h"
 
-#define  LED_GREEN_ON      LED_PORT->BSRRH = GREEN_LED_Pin
-#define  LED_GREEN_OFF     LED_PORT->BSRRL = GREEN_LED_Pin
-#define  LED_GREEN_TOGGLE  LED_PORT->ODR ^= GREEN_LED_Pin
+#define  LED_One_ON      LED_PORT->BSRRH = LED_Pin_One
+#define  LED_One_OFF     LED_PORT->BSRRL = LED_Pin_One
+#define  LED_One_TOGGLE  LED_PORT->ODR ^= LED_Pin_One
 
-#define  LED_RED_ON        LED_PORT->BSRRH = RED_LED_Pin
-#define  LED_RED_OFF       LED_PORT->BSRRL = RED_LED_Pin
-#define  LED_RED_TOGGLE    LED_PORT->ODR ^= RED_LED_Pin
+#define  LED_Two_ON        LED_PORT->BSRRH = LED_Pin_Two
+#define  LED_Two_OFF       LED_PORT->BSRRL = LED_Pin_Two
+#define  LED_Two_TOGGLE    LED_PORT->ODR ^= LED_Pin_Two
 
-#define  LED_BLUE_ON        LED_PORT->BSRRH = BLUE_LED_Pin
-#define  LED_BLUE_OFF       LED_PORT->BSRRL = BLUE_LED_Pin
-#define  LED_BLUE_TOGGLE    LED_PORT->ODR ^= BLUE_LED_Pin
+#define  LED_Three_ON        LED_PORT->BSRRH = LED_Pin_Three
+#define  LED_Three_OFF       LED_PORT->BSRRL = LED_Pin_Three
+#define  LED_Three_TOGGLE    LED_PORT->ODR ^= LED_Pin_Three
 
-#define  OUT_LED_RED_ON        OUT_LED_PORT->BSRRH = OUT_RED_Pin
-#define  OUT_LED_RED_OFF       OUT_LED_PORT->BSRRL = OUT_RED_Pin
-#define  OUT_LED_RED_TOGGLE    OUT_LED_PORT->ODR ^= OUT_RED_Pin
+#define  LED_Four_ON        LED_PORT->BSRRH = LED_Pin_Four
+#define  LED_Four_OFF       LED_PORT->BSRRL = LED_Pin_Four
+#define  LED_Four_TOGGLE    LED_PORT->ODR ^= LED_Pin_Four
 
-#define  OUT_LED_GREEN_ON        OUT_LED_PORT->BSRRH = OUT_GREEN_Pin
-#define  OUT_LED_GREEN_OFF       OUT_LED_PORT->BSRRL = OUT_GREEN_Pin
-#define  OUT_LED_GREEN_TOGGLE    OUT_LED_PORT->ODR ^= OUT_GREEN_Pin
 
 enum  {
 				LED_GREEN,
@@ -32,7 +29,5 @@ enum  {
 			};
 
 void Led_Init(void);
-void Led_Flash(float T, u8 led_name, float cycle_ms, float duty);
-void Led_Task(float T);
 
 #endif

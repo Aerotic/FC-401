@@ -43,12 +43,8 @@
 .\objects\stm32f4xx_it.o: .\Mylib\data_send.h
 .\objects\stm32f4xx_it.o: .\Mylib\buzzer.h
 .\objects\stm32f4xx_it.o: .\Mylib\pwm_out.h
-.\objects\stm32f4xx_it.o: .\Mylib\pwm_in.h
 .\objects\stm32f4xx_it.o: .\Mylib\filter.h
-.\objects\stm32f4xx_it.o: .\Mylib\hcsr04.h
 .\objects\stm32f4xx_it.o: .\Mylib\uart5.h
-.\objects\stm32f4xx_it.o: .\Mylib\gps.h
 .\objects\stm32f4xx_it.o: .\Mylib\inertialNav.h
 .\objects\stm32f4xx_it.o: .\Mylib\spi.h
-.\objects\stm32f4xx_it.o: .\Mylib\24l01.h
 .\objects\stm32f4xx_it.o: .\Mylib\flash.h

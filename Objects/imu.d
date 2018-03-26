@@ -43,12 +43,8 @@
 .\objects\imu.o: Mylib\data_send.h
 .\objects\imu.o: Mylib\buzzer.h
 .\objects\imu.o: Mylib\pwm_out.h
-.\objects\imu.o: Mylib\pwm_in.h
 .\objects\imu.o: Mylib\filter.h
-.\objects\imu.o: Mylib\hcsr04.h
 .\objects\imu.o: Mylib\uart5.h
-.\objects\imu.o: Mylib\gps.h
 .\objects\imu.o: Mylib\inertialNav.h
 .\objects\imu.o: Mylib\spi.h
-.\objects\imu.o: Mylib\24l01.h
 .\objects\imu.o: Mylib\flash.h

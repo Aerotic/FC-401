@@ -43,12 +43,8 @@
 .\objects\inertialnav.o: Mylib\data_send.h
 .\objects\inertialnav.o: Mylib\buzzer.h
 .\objects\inertialnav.o: Mylib\pwm_out.h
-.\objects\inertialnav.o: Mylib\pwm_in.h
 .\objects\inertialnav.o: Mylib\filter.h
-.\objects\inertialnav.o: Mylib\hcsr04.h
 .\objects\inertialnav.o: Mylib\uart5.h
-.\objects\inertialnav.o: Mylib\gps.h
 .\objects\inertialnav.o: Mylib\inertialNav.h
 .\objects\inertialnav.o: Mylib\spi.h
-.\objects\inertialnav.o: Mylib\24l01.h
 .\objects\inertialnav.o: Mylib\flash.h

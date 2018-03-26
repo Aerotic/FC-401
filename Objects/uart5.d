@@ -43,12 +43,8 @@
 .\objects\uart5.o: Mylib\data_send.h
 .\objects\uart5.o: Mylib\buzzer.h
 .\objects\uart5.o: Mylib\pwm_out.h
-.\objects\uart5.o: Mylib\pwm_in.h
 .\objects\uart5.o: Mylib\filter.h
-.\objects\uart5.o: Mylib\hcsr04.h
 .\objects\uart5.o: Mylib\uart5.h
-.\objects\uart5.o: Mylib\gps.h
 .\objects\uart5.o: Mylib\inertialNav.h
 .\objects\uart5.o: Mylib\spi.h
-.\objects\uart5.o: Mylib\24l01.h
 .\objects\uart5.o: Mylib\flash.h

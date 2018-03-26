@@ -42,13 +42,9 @@
 .\objects\usart1.o: Mylib\data_send.h
 .\objects\usart1.o: Mylib\buzzer.h
 .\objects\usart1.o: Mylib\pwm_out.h
-.\objects\usart1.o: Mylib\pwm_in.h
 .\objects\usart1.o: Mylib\filter.h
-.\objects\usart1.o: Mylib\hcsr04.h
 .\objects\usart1.o: Mylib\uart5.h
-.\objects\usart1.o: Mylib\gps.h
 .\objects\usart1.o: Mylib\inertialNav.h
 .\objects\usart1.o: Mylib\spi.h
-.\objects\usart1.o: Mylib\24l01.h
 .\objects\usart1.o: Mylib\flash.h
 .\objects\usart1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

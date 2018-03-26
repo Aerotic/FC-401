@@ -6,9 +6,10 @@ int main(void)
  //	FlightController_board_Init();
 //	LED_BLUE_ON;
 	Led_Init();
-	LED_RED_OFF;
-	LED_BLUE_OFF;
-	LED_GREEN_OFF;
+	LED_One_OFF;
+	LED_Two_OFF;
+	LED_Three_OFF;
+	LED_Four_OFF;
 	while(1)
 	{		
 		

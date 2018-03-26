@@ -109,21 +109,21 @@ void Uart5_Config(void)
     NVIC_Init(&NVIC_InitStructure);
  
     DMA_DeInit(DMA1_Stream0);
-    DMA_InitStructure.DMA_Channel= DMA_Channel_4;
-    DMA_InitStructure.DMA_PeripheralBaseAddr = (uint32_t)&(UART5->DR);
-    DMA_InitStructure.DMA_Memory0BaseAddr = (uint32_t)gps_rx_buffer;
-    DMA_InitStructure.DMA_DIR = DMA_DIR_PeripheralToMemory;
-    DMA_InitStructure.DMA_BufferSize = GPS_BUF_LEN;
-    DMA_InitStructure.DMA_PeripheralInc = DMA_PeripheralInc_Disable;
-    DMA_InitStructure.DMA_MemoryInc = DMA_MemoryInc_Enable;
-    DMA_InitStructure.DMA_PeripheralDataSize = DMA_PeripheralDataSize_Byte;
-    DMA_InitStructure.DMA_MemoryDataSize = DMA_MemoryDataSize_Byte;
-    DMA_InitStructure.DMA_Mode = DMA_Mode_Circular;
-    DMA_InitStructure.DMA_Priority = DMA_Priority_High;
-    DMA_InitStructure.DMA_FIFOMode = DMA_FIFOMode_Disable;
-    DMA_InitStructure.DMA_FIFOThreshold = DMA_FIFOThreshold_1QuarterFull;
-    DMA_InitStructure.DMA_MemoryBurst = DMA_Mode_Normal;
-    DMA_InitStructure.DMA_PeripheralBurst = DMA_PeripheralBurst_Single;
+//    DMA_InitStructure.DMA_Channel= DMA_Channel_4;
+//    DMA_InitStructure.DMA_PeripheralBaseAddr = (uint32_t)&(UART5->DR);
+//    DMA_InitStructure.DMA_Memory0BaseAddr = (uint32_t)gps_rx_buffer;
+//    DMA_InitStructure.DMA_DIR = DMA_DIR_PeripheralToMemory;
+//    DMA_InitStructure.DMA_BufferSize = GPS_BUF_LEN;
+//    DMA_InitStructure.DMA_PeripheralInc = DMA_PeripheralInc_Disable;
+//    DMA_InitStructure.DMA_MemoryInc = DMA_MemoryInc_Enable;
+//    DMA_InitStructure.DMA_PeripheralDataSize = DMA_PeripheralDataSize_Byte;
+//    DMA_InitStructure.DMA_MemoryDataSize = DMA_MemoryDataSize_Byte;
+//    DMA_InitStructure.DMA_Mode = DMA_Mode_Circular;
+//    DMA_InitStructure.DMA_Priority = DMA_Priority_High;
+//    DMA_InitStructure.DMA_FIFOMode = DMA_FIFOMode_Disable;
+//    DMA_InitStructure.DMA_FIFOThreshold = DMA_FIFOThreshold_1QuarterFull;
+//    DMA_InitStructure.DMA_MemoryBurst = DMA_Mode_Normal;
+//    DMA_InitStructure.DMA_PeripheralBurst = DMA_PeripheralBurst_Single;
     DMA_Init(DMA1_Stream0,&DMA_InitStructure);
 
     DMA_Cmd(DMA1_Stream0,ENABLE);
@@ -146,12 +146,12 @@ void UART5_IRQHandler(void)
 			gps_loop_time = Get_Cycle_T(6);
 		
 			i = UART5->SR;  
-			i = UART5->DR; 
-		
-		  GPS_Read();
-			DMA1_Stream0->NDTR = GPS_BUF_LEN;
-			USART_ClearITPendingBit(UART5, USART_IT_IDLE);
-		  DMA_Cmd(DMA1_Stream0,ENABLE);
+//			i = UART5->DR; 
+//		
+//		  GPS_Read();
+//			DMA1_Stream0->NDTR = GPS_BUF_LEN;
+//			USART_ClearITPendingBit(UART5, USART_IT_IDLE);
+//		  DMA_Cmd(DMA1_Stream0,ENABLE);
 	}
 }
 

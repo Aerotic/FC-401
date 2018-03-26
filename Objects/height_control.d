@@ -43,12 +43,8 @@
 .\objects\height_control.o: Mylib\data_send.h
 .\objects\height_control.o: Mylib\buzzer.h
 .\objects\height_control.o: Mylib\pwm_out.h
-.\objects\height_control.o: Mylib\pwm_in.h
 .\objects\height_control.o: Mylib\filter.h
-.\objects\height_control.o: Mylib\hcsr04.h
 .\objects\height_control.o: Mylib\uart5.h
-.\objects\height_control.o: Mylib\gps.h
 .\objects\height_control.o: Mylib\inertialNav.h
 .\objects\height_control.o: Mylib\spi.h
-.\objects\height_control.o: Mylib\24l01.h
 .\objects\height_control.o: Mylib\flash.h

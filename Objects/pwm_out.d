@@ -43,12 +43,8 @@
 .\objects\pwm_out.o: Mylib\data_send.h
 .\objects\pwm_out.o: Mylib\buzzer.h
 .\objects\pwm_out.o: Mylib\pwm_out.h
-.\objects\pwm_out.o: Mylib\pwm_in.h
 .\objects\pwm_out.o: Mylib\filter.h
-.\objects\pwm_out.o: Mylib\hcsr04.h
 .\objects\pwm_out.o: Mylib\uart5.h
-.\objects\pwm_out.o: Mylib\gps.h
 .\objects\pwm_out.o: Mylib\inertialNav.h
 .\objects\pwm_out.o: Mylib\spi.h
-.\objects\pwm_out.o: Mylib\24l01.h
 .\objects\pwm_out.o: Mylib\flash.h

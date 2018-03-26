@@ -750,16 +750,6 @@
           <GroupName>Mylib</GroupName>
           <Files>
             <File>
-              <FileName>24l01.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Mylib\24l01.c</FilePath>
-            </File>
-            <File>
-              <FileName>24l01.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Mylib\24l01.h</FilePath>
-            </File>
-            <File>
               <FileName>android.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Mylib\android.c</FilePath>
@@ -778,16 +768,6 @@
               <FileName>board.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Mylib\board.h</FilePath>
-            </File>
-            <File>
-              <FileName>buzzer.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Mylib\buzzer.c</FilePath>
-            </File>
-            <File>
-              <FileName>buzzer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Mylib\buzzer.h</FilePath>
             </File>
             <File>
               <FileName>control.c</FileName>
@@ -840,26 +820,6 @@
               <FilePath>.\Mylib\flash.h</FilePath>
             </File>
             <File>
-              <FileName>gps.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Mylib\gps.c</FilePath>
-            </File>
-            <File>
-              <FileName>gps.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Mylib\gps.h</FilePath>
-            </File>
-            <File>
-              <FileName>hcsr04.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Mylib\hcsr04.c</FilePath>
-            </File>
-            <File>
-              <FileName>hcsr04.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Mylib\hcsr04.h</FilePath>
-            </File>
-            <File>
               <FileName>height_control.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Mylib\height_control.c</FilePath>
@@ -870,16 +830,6 @@
               <FilePath>.\Mylib\height_control.h</FilePath>
             </File>
             <File>
-              <FileName>hmc5883.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Mylib\hmc5883.c</FilePath>
-            </File>
-            <File>
-              <FileName>hmc5883.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Mylib\hmc5883.h</FilePath>
-            </File>
-            <File>
               <FileName>imu.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Mylib\imu.c</FilePath>
@@ -888,11 +838,6 @@
               <FileName>imu.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Mylib\imu.h</FilePath>
-            </File>
-            <File>
-              <FileName>inerNav.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Mylib\inerNav.c</FilePath>
             </File>
             <File>
               <FileName>inertialNav.c</FileName>
@@ -953,16 +898,6 @@
               <FileName>parameter.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Mylib\parameter.h</FilePath>
-            </File>
-            <File>
-              <FileName>pwm_in.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Mylib\pwm_in.c</FilePath>
-            </File>
-            <File>
-              <FileName>pwm_in.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Mylib\pwm_in.h</FilePath>
             </File>
             <File>
               <FileName>pwm_out.c</FileName>

@@ -43,12 +43,8 @@
 .\objects\android.o: Mylib\data_send.h
 .\objects\android.o: Mylib\buzzer.h
 .\objects\android.o: Mylib\pwm_out.h
-.\objects\android.o: Mylib\pwm_in.h
 .\objects\android.o: Mylib\filter.h
-.\objects\android.o: Mylib\hcsr04.h
 .\objects\android.o: Mylib\uart5.h
-.\objects\android.o: Mylib\gps.h
 .\objects\android.o: Mylib\inertialNav.h
 .\objects\android.o: Mylib\spi.h
-.\objects\android.o: Mylib\24l01.h
 .\objects\android.o: Mylib\flash.h
